@@ -9,7 +9,7 @@ A small desktop app reads your prompts from a strip of pixels the addon draws on
 Get the installer for your system from the [Releases page](https://github.com/AitorPo/cow-releases/releases/latest):
 
 - **macOS:** `CoW_<version>_aarch64.dmg` for Apple Silicon (M1 and newer), `CoW_<version>_x64.dmg` for Intel. Open the dmg and drag CoW to Applications.
-- **Windows:** `CoW_<version>_x64-setup.exe` (or the `.msi`). Experimental: reading the game screen is not implemented on Windows yet, so the app installs and runs but cannot receive prompts from the game.
+- **Windows:** not available yet. Reading the game screen is not implemented on Windows, so there is no installer for now.
 
 ### macOS from Terminal (no warning)
 
@@ -24,7 +24,6 @@ curl -fsSL https://raw.githubusercontent.com/AitorPo/cow-releases/main/scripts/i
 The builds are not signed yet, so the system warns on first launch:
 
 - **macOS:** "CoW cannot be opened because the developer cannot be verified". Right-click CoW in Applications, choose Open, then Open again. Or open System Settings, Privacy & Security, and click Open Anyway. If macOS says the app is damaged, run `xattr -d com.apple.quarantine /Applications/CoW.app` in Terminal and open it again.
-- **Windows:** SmartScreen shows "Windows protected your PC". Click More info, then Run anyway.
 
 Each release lists a `SHA256SUMS` file to verify the downloads.
 
