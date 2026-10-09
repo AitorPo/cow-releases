@@ -8,7 +8,7 @@ A small desktop app reads your prompts from a strip of pixels the addon draws on
 
 Get the installer for your system from the [Releases page](https://github.com/AitorPo/cow-releases/releases/latest):
 
-- **macOS:** `CoW_<version>_aarch64.dmg` for Apple Silicon (M1 and newer), `CoW_<version>_x64.dmg` for Intel. Open the dmg and drag CoW to Applications.
+- **macOS:** `CoW_<version>_aarch64.dmg` for Apple Silicon (M1 and newer). Open the dmg and drag CoW to Applications. There is no Intel Mac build for now.
 - **Windows:** not available yet. Reading the game screen is not implemented on Windows, so there is no installer for now.
 
 ### macOS from Terminal (no warning)
